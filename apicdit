@@ -1,0 +1,10 @@
+import re
+from wsgiref.simple_server import demo_app
+import requests
+import soupsieve
+r = requests.get('https://www.yaozui.com/hubei-gongsi?page=1')
+demo=r.text
+demo
+from bs4 import BeautifulSoup
+import re
+print(demo.find_all(re.compile('h4')))
