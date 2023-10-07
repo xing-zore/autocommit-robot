@@ -86,6 +86,7 @@
 			"type":"switch",
 			"value":0,
 			"display":"{{LNG['OnlyOffice.Config.history']}}"
+			
         }
 	}
 }
