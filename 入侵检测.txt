@@ -15,4 +15,4 @@
 
 {Xing_Windows_agent:port.logs[tcp,:3389,established].iregexp(3389)}=1 and {Xing_Windows_agent:port.logs[tcp,:3389,established].str(192.168.1.36)}=0 and {Xing_Windows_agent:port.logs[tcp,:3389,established].iregexp(3389[0-9])}=3
 
-{Xing_Windows_agent:port.logs[tcp,:3389,established].iregexp(3389)}=1 and {Xing_Windows_agent:port.logs[tcp,:3389,established].str(192.168.1.36)}=0 and {Xing_Windows_agent:port.logs[tcp,:3389,established].iregexp(3389[0-9])}=31
+{Xing_Windows_agent:port.logs[tcp,:3389,established].iregexp(3389)}=1 and {Xing_Windows_agent:port.logs[tcp,:3389,established].str(192.168.1.36)}=0 and {Xing_Windows_agent:port.logs[tcp,:3389,established].iregexp(3389[0-9])}=310
